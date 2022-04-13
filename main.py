@@ -74,7 +74,7 @@ class Comment(db.Model):
     text = db.Column(db.String(250), nullable=False)
 
 # This line should one run once in order to create the database and the tables in it
-db.create_all()
+# db.create_all()
 
 
 @app.route('/')
